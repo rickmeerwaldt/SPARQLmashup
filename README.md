@@ -8,9 +8,12 @@ A preliminary tutorial on how to make a digital music mashup using the Semantic 
 A framework was contructed as result of research on the subject of the possibilities of making digital music mashups concretely by means of SPARQL queries on MIDI Linked Data (see https://midi-ld.github.io)
 
 See FRAMEWORK.png for a very preliminary version of the framework
+- all required queries can be found in queries.pdf
 
 # Query for the mashup
 The following query was constructed to be used on the MIDI Linked Data SPARQL endpoint (see http://virtuoso-midi.amp.ops.labs.vu.nl/sparql) in order to generate a MIDI Linked Data mashup:
+
+See queries.pdf for all queries that are required for making a mashup
 
 # More queries
 
@@ -23,5 +26,5 @@ See queries.pdf for all queries that are required for making a mashup
 # Explanation of the framework
 
 # Making a mashup by means of an example
-A step by step generation of a mashup
+For a step by step generation of a MIDI Linked Data mashup see example.pdf
 
