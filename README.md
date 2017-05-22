@@ -11,7 +11,7 @@ See FRAMEWORK.png for a very preliminary version of the framework
 # Query
 The following query was constructed to be used on the MIDI Linked Data SPARQL endpoint (see http://virtuoso-midi.amp.ops.labs.vu.nl/sparql) in order to generate a MIDI Linked Data mashup:
 
-<code>
+<pre>
 PREFIX prov: <http://www.w3.org/ns/prov#> 
 PREFIX mid: <http://purl.org/midi-ld/midi#>
 
@@ -47,7 +47,7 @@ FILTER (regex(?filename, "song2", "i")) .
 FILTER (?track IN (<track1>, <track2>, <and so on>))
 }
 }
-<\code> 
+<\pre> 
 
 # Explanation of the framework
 
