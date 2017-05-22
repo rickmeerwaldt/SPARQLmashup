@@ -34,7 +34,7 @@ WHERE {
 ?event a ?type .
 ?event ?property ?value .
 FILTER (regex(?filename, "song1", "i")) .
-FILTER (?track IN (<track1>, <track2>, <and so on>))
+FILTER (?track IN (</track1>, <track2>, <and so on>))
 } UNION {
 ?pattern prov:wasDerivedFrom ?filename .
 ?pattern mid:hasTrack ?track .
