@@ -1,6 +1,6 @@
 # SPARQLmashup
 
-A preliminary tutorial on how to make a digital music mashup using the Semantic Web technology stack.
+A framework on how to make a digital music mashup using the Semantic Web technology stack.
 
 # What is a mashup
 
