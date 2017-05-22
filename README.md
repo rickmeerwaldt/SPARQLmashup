@@ -11,42 +11,6 @@ See FRAMEWORK.png for a very preliminary version of the framework
 # Query
 The following query can be used on the MIDI Linked Data SPARQL endpoint (see http://virtuoso-midi.amp.ops.labs.vu.nl/sparql) to generate a MIDI Linked Data mashup:
 
-PREFIX prov: <http://www.w3.org/ns/prov#> 
-PREFIX mid: <http://purl.org/midi-ld/midi#>
-
-CONSTRUCT { <newsong> a mid:Pattern ;
-mid:hasTrack ?track . 
-<newsong> mid:format ?format .
-?track mid:hasEvent ?event .
-?track a mid:Track .
-?event a ?type .
-?event ?property ?value .
-}
-
-WHERE { 
-{
-?pattern prov:wasDerivedFrom ?filename .
-?pattern mid:hasTrack ?track .
-?pattern mid:format ?format .
-?pattern mid:resolution ?resolution .
-?track mid:hasEvent ?event .
-?event a ?type .
-?event ?property ?value .
-FILTER (regex(?filename, "<b>song1", "i"</b>)) .
-FILTER (?track IN (<track1>, <track2>, <and so on>))
-} UNION {
-?pattern prov:wasDerivedFrom ?filename .
-?pattern mid:hasTrack ?track .
-?pattern mid:format ?format .
-?pattern mid:resolution ?resolution .
-?track mid:hasEvent ?event .
-?event a ?type .
-?event ?property ?value .
-FILTER (regex(?filename, "song2", "i")) .
-FILTER (?track IN (<track1>, <track2>, <and so on>))
-}
-}
-
 # Explanation of the framework
 
 # Making a mashup by means of an example
