@@ -53,3 +53,17 @@ FILTER (?track IN (<track1>, <track2>, <and so on>))
 
 # Making a mashup by means of an example
 A step by step generation of a mashup
+
+<style>
+  input[type="checkbox"].expand-content{ display:none; }
+  input[type="checkbox"].expand-content ~ .collapsed { display:block; }
+  input[type="checkbox"].expand-content ~ .expanded { display:none; }
+  input[type="checkbox"].expand-content:checked ~ .collapsed { display:none; }
+  input[type="checkbox"].expand-content:checked ~ .expanded { display:block; }
+</style>
+
+<label>
+    <input type="checkbox" class="expand-content" />
+    <div class="collapsed">this is the small content</div>
+    <div class="expanded">this is the big content</div>
+</label>
