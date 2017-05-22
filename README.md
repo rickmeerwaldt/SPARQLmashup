@@ -47,12 +47,9 @@ FILTER (regex(?filename, "song2", "i")) .
 FILTER (?track IN (<track1>, <track2>, <and so on>))
 }
 }
-<\pre> 
+</pre> 
 
 # Explanation of the framework
 
 # Making a mashup by means of an example
 A step by step generation of a mashup
-
-
-q
