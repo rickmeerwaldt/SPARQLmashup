@@ -23,8 +23,6 @@ Before the final query can be made, the MIDI Linked Data cloud needs to be explo
 
 See queries.pdf for all queries that are required for making a mashup 
 
-# Explanation of the framework
-
 # Making a mashup by means of an example
 For a step by step generation of a MIDI Linked Data mashup see example.pdf
 
