@@ -64,7 +64,7 @@ See queries.pdf for all queries that are required for making a mashup
 ## Making a mashup by means of an example
 For a step by step generation of a MIDI Linked Data mashup see example
 
-### Changelog
+## Changelog
 
 26-05-2017:
 - Added the example map with the according file
