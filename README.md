@@ -19,7 +19,7 @@ But before the final query can be made, the MIDI Linked Data cloud needs to be e
 - two songs with the same tempo
 - tracks from those songs that are going to be used in the mashup
 
-See queries.pdf for all queries that are required for making a mashup 
+<i>See queries.pdf for all queries that are required for making a mashup</i> 
 
 ## Making a mashup by means of an example
 For a step by step generation of a MIDI Linked Data mashup see example
