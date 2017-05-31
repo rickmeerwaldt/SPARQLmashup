@@ -27,7 +27,7 @@ For a step by step generation of a MIDI Linked Data mashup see example
 ## Changelog
 
 26-05-2017:
-- Added the example map with the according file
-- Added new version of the framework, frameworkV2
+- Added the map: 'example' with the according files
+- Added new version of the framework: 'frameworkV2'
 
 
