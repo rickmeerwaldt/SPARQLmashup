@@ -30,4 +30,7 @@ For a step by step generation of a MIDI Linked Data mashup see example
 - Added the map: 'example' with the according files
 - Added new version of the framework: 'frameworkV2'
 
+04-06-2017
+- Replaced Queries.pdf with a new version (more use of URI's instead of FILTER)
+- Replaced all the files in the example map (usage of the new version of Queries.pdf)
 
