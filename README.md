@@ -32,5 +32,10 @@ For a step by step generation of a MIDI Linked Data mashup see example
 
 04-06-2017:
 - Replaced Queries.pdf with a new version (more use of URI's instead of FILTER)
-- Replaced all the files in the example map (usage of the new version of Queries.pdf)
+- Replaced all the files in the example map (uses now the new version of Queries.pdf)
+
+06-04-2017
+- Small changes in Queries.pdf and Example.pdf (now also filter on resolution)
+
+
 
