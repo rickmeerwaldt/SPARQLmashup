@@ -16,9 +16,23 @@ A framework was contructed as result of research on the subject of the possibili
 A query is constructed to be used on the MIDI Linked Data SPARQL endpoint (see http://virtuoso-midi.amp.ops.labs.vu.nl/sparql) in order to generate a MIDI Linked Data mashup. 
 
 ```python
-s = "Python syntax highlighting"
-print s
-CONSTRUCT { <pattern1> a mid:Pattern ;
+PREFIX prov: <http://www.w3.org/ns/prov#> 
+PREFIX mid: <http://purl.org/midi-ld/midi#>
+CONSTRUCT { <pattern1> a mid:Pattern ; 
+mid:hasTrack ?track .
+<pattern1> mid:format ?format . 
+<pattern1> mid:resolution ?resolution . 
+?track mid:hasEvent ?event .
+?track a mid:Track . ?event a ?type .
+?event ?property ?value . }
+WHERE {
+<pattern1> mid:hasTrack ?track . 
+<pattern1> mid:format ?format . 
+<pattern1> mid:resolution ?resolution . 
+?track mid:hasEvent ?event .
+?event a ?type .
+?event ?property ?value .
+}
 ```
 
 
