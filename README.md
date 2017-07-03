@@ -11,6 +11,9 @@ A framework was contructed as result of research on the subject of the possibili
 <i>See FRAMEWORK.png for a very preliminary version of the framework
 - all required queries can be found in queries.pdf</i>
 
+![alt text](https://github.com/rickmeerwaldt/SPARQLmashup/blob/master/Framework.png)
+
+
 ### Query for the mashup
 A query is constructed to be used on the MIDI Linked Data SPARQL endpoint (see http://virtuoso-midi.amp.ops.labs.vu.nl/sparql) in order to generate a MIDI Linked Data mashup. 
 
