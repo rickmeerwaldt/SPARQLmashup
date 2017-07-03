@@ -15,7 +15,7 @@ A framework was contructed as result of research on the subject of the possibili
 ### Query for the mashup
 A query is constructed to be used on the MIDI Linked Data SPARQL endpoint (see http://virtuoso-midi.amp.ops.labs.vu.nl/sparql) in order to generate a MIDI Linked Data mashup. 
 
-```python
+```SPARQL
 PREFIX prov: <http://www.w3.org/ns/prov#> 
 PREFIX mid: <http://purl.org/midi-ld/midi#>
 CONSTRUCT { <pattern1> a mid:Pattern ; 
