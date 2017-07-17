@@ -29,8 +29,7 @@ mid:hasTrack ?track .
 ?event ?property ?value .
 }
 
-WHERE { 
-{
+WHERE {{
 <pattern1> mid:hasTrack ?track .
 <pattern1> mid:format ?format .
 <pattern1> mid:resolution ?resolution .
@@ -46,14 +45,11 @@ FILTER (?track IN (<track1>, <track2>, <and so on>, <arbitrary>))
 ?event a ?type .
 ?event ?property ?value .
 FILTER (?track IN (<track1>, <track2>, <and so on>, <arbitrary>))
-}
-}
-}
+}}}
 ```
 
-
 ### More queries
-But before the final query can be made, the MIDI Linked Data cloud needs to be explored in order to find
+Before the final query can be made, the MIDI Linked Data cloud needed to be explored in order to find:
 - two songs with the same tempo
 - tracks from those songs that are going to be used in the mashup
 
