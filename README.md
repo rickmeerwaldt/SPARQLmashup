@@ -18,20 +18,36 @@ A query is constructed to be used on the MIDI Linked Data SPARQL endpoint (see h
 ```SPARQL
 PREFIX prov: <http://www.w3.org/ns/prov#> 
 PREFIX mid: <http://purl.org/midi-ld/midi#>
-CONSTRUCT { <pattern1> a mid:Pattern ; 
-mid:hasTrack ?track .
-<pattern1> mid:format ?format . 
-<pattern1> mid:resolution ?resolution . 
+
+CONSTRUCT { <newsong> a mid:Pattern ;
+mid:hasTrack ?track . 
+<newsong> mid:format ?format .
+<newsong> mid:resolution ?resolution .
 ?track mid:hasEvent ?event .
-?track a mid:Track . ?event a ?type .
-?event ?property ?value . }
-WHERE {
-<pattern1> mid:hasTrack ?track . 
-<pattern1> mid:format ?format . 
-<pattern1> mid:resolution ?resolution . 
+?track a mid:Track .
+?event a ?type .
+?event ?property ?value .
+}
+
+WHERE { 
+{
+<pattern1> mid:hasTrack ?track .
+<pattern1> mid:format ?format .
+<pattern1> mid:resolution ?resolution .
 ?track mid:hasEvent ?event .
 ?event a ?type .
 ?event ?property ?value .
+FILTER (?track IN (<track1>, <track2>, <and so on>, <arbitrary>))
+} UNION {
+<pattern2> mid:hasTrack ?track .
+<pattern2> mid:format ?format .
+<pattern2> mid:resolution ?resolution .
+?track mid:hasEvent ?event .
+?event a ?type .
+?event ?property ?value .
+FILTER (?track IN (<track1>, <track2>, <and so on>, <arbitrary>))
+}
+}
 }
 ```
 
