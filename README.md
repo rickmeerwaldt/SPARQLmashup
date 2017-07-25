@@ -52,7 +52,7 @@ FILTER (?track IN (<track1>, <track2>, <and so on>, <arbitrary>))
 ```
 
 ### More queries
-But before the final query can be made, the MIDI Linked Data cloud needs to be explored in order to find
+Before the final query can be used, the MIDI Linked Data cloud needs to be explored in order to find
 - two songs with the same tempo
 - tracks from those songs that are going to be used in the mashup
 
