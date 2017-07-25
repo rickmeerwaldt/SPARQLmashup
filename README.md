@@ -9,6 +9,8 @@ A framework on how to make a digital music mashup using the Semantic Web technol
 ## What is a mashup
 A mashup is a song or composition created by blending two or more pre-recorded songs (https://en.wikipedia.org/wiki/Mashup_(music)).
 
+A few key skills need to be mastered in order to make a mashup. These skills are called beatmatching and mixing in key (harmonic mixing). Beatmatching is a technique which involves the process matching the beats per minute (BPM) of different tracks in order to synchronize the tracks with each other. This is done by adjusting the tempo of some track to match the other track’s tempo. Harmonic mixing on the other hand is the process of getting two tracks in the same key, or in relative keys, so there are no dissonant tones between the tracks when they are mixed (http://spin-academy.com/how-to-make-a-mashup/).
+
 ## The framework
 The framework was contructed as result of research on the subject of the possibilities of making digital music mashups concretely by means of SPARQL queries on MIDI Linked Data (see https://midi-ld.github.io)
 
