@@ -81,6 +81,9 @@ For a step by step generation of a MIDI Linked Data mashup see example
 06-04-2017
 - Small changes in Queries.pdf and Example.pdf (now also filter on resolution)
 
+03-06-2017
+- Added the SPARQL query for the mashup to the page
+
 25-07-2017
 - Updated the framework
 - Change of layout of the page
