@@ -1,9 +1,10 @@
 # SPARQLmashup
+A framework on how to make a digital music mashup using the Semantic Web technology stack.
 
 ![alt text](https://github.com/rickmeerwaldt/SPARQLmashup/blob/master/FrameworkV2.png)
-<i>all required queries can be found in queries.pdf</i>
 
-A framework on how to make a digital music mashup using the Semantic Web technology stack.
+<i>all required queries (Q1-Q6) can be found in queries.pdf</i>
+
 
 ## What is a mashup
 A mashup is a song or composition created by blending two or more pre-recorded songs (https://en.wikipedia.org/wiki/Mashup_(music)).
