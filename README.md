@@ -9,7 +9,7 @@ A mashup is a song or composition created by blending two or more pre-recorded s
 A framework was contructed as result of research on the subject of the possibilities of making digital music mashups concretely by means of SPARQL queries on MIDI Linked Data (see https://midi-ld.github.io)
 
 
-![alt text](https://github.com/rickmeerwaldt/SPARQLmashup/blob/master/Framework.png)
+![alt text](https://github.com/rickmeerwaldt/SPARQLmashup/blob/master/FrameworkV2.png)
 <i>all required queries can be found in queries.pdf</i>
 
 ### Query for the mashup
