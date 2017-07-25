@@ -64,7 +64,7 @@ the second song: <pattern2> and its' tracks: <track1>, <track2> <and so on>
 
 <i>See queries.pdf for all queries that are required for making a mashup</i> 
 
-## Making a mashup by means of an example
+### Making a mashup by means of an example
 For a step by step generation of a MIDI Linked Data mashup see example
 
 ## Changelog
