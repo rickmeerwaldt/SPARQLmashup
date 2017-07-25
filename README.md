@@ -48,7 +48,6 @@ FILTER (?track IN (<track1>, <track2>, <and so on>, <arbitrary>))
 FILTER (?track IN (<track1>, <track2>, <and so on>, <arbitrary>))
 }
 }
-}
 ```
 
 ### More queries
